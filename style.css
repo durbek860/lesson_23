@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.passive{
+    width: 100%;
+    height: 92.2px;
+}
+
+header{
+    width: 100%;
+    height: 92.2px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+}
+
+header img{
+    width: 151px;
+}
+
+header .pages a{
+    color: #0A121D;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+header .pages a:hover{
+    color: #D66638;
+    border-bottom: 3px solid #D66638;
+    padding-bottom: 10px;
+}
+
+header .pages > .active{
+    color: #D66638;
+    border-bottom: 3px solid #D66638;
+    padding-bottom: 10px;
+}
+
+header .pages .active i{
+    color: grey;
+}
+
+header button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #F2480A;
+    border: #F2480A;
+    color: white;
+    font-weight: bold;
+}
+
+header button:hover{
+    background-color: #4d4d4d;
+    border: #4d4d4d;
+}
+
+.section{
+    width: 100%;
+    height: 940px;
+    color: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section .main{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section .photo{
+    width: 558px;
+    height: 553px;
+    background-image: url(./mother-daughter-playing-together.jpg);
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.section .text{
+    width: 532px;
+    height: 553px;
+    padding: 30px;
+}
+
+.text h2{
+    font-family: "Baloo Tamma 2", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.text p{
+    font-size: 18px;
+    padding: 20px 0px 0px;
+    line-height: 2;
+    font-weight: lighter;
+}
+
+.text button{
+    text-decoration: none;
+    border: 1px solid #D66638;
+    color: white;
+    background-color: #D66638;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 30px 257.891px 0px 0px;
+}
+
+.text button:hover{
+    background-color: #0A121D;
+    border: 1px solid #0A121D;
+}
+
+.section > .reapeter{
+    width: 80%;
+    height: 211px;
+    display: flex;
+    justify-content: center;
+} 
+
+.reapeter .tool{
+    width: 285px;
+    height: 211px;
+    padding: 30px 30px 30px 0px;
+    line-height: 1.2;
+}
+
+.tool h4{
+    font-size: 48px;
+    font-family: "Baloo Tamma 2", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    color: #F2480A;
+}
+
+.tool h5{
+    font-size: 24px;
+    font-family: "Baloo Tamma 2", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    padding: 20px 0px 0px;
+}
+
+.our_services{
+    width: 100%;
+    height: 1247px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.our_services h2{
+    font-size: 55px;
+    font-family: "Baloo Tamma 2", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    padding: 190px 413.562px 0px 413.55px;
+}
+
+.our_services .repeater{
+    width: 1200px;
+    height: 1011.6px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.repeater .item{
+    width: 379px;
+    height: 455.8px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.repeater .item img{
+    width: 319px;
+    height: 245px;
+}
+
+.repeater .item h4{
+    font-size: 24px;
+    padding: 30px 103.812px 0px;
+    color: #F67D51;
+    font-family: "Baloo Tamma 2", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+}
+
+.repeater .item p{
+    font-size: 18px;
+    font-style: italic;
+    padding: 20px 0px 0px;
+    text-align: center;
+    line-height: 2;
+}
+
+.our_services_2{
+    width: 100%;
+    height: 1247px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFECE5;
+}
+
+.our_services_2 h2{
+    font-size: 55px;
+    font-family: "Baloo Tamma 2", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    padding: 190px 413.562px 0px 413.55px;
+}
+
+.our_services_2 .repeaterer{
+    width: 1200px;
+    height: 1011.6px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.repeaterer .item{
+    width: 379px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 60px;
+    border: 3px solid #EEC2B0;
+    overflow: hidden;
+}
+
+.repeaterer .item img{
+    width: 100%;
+    height: 245px;
+}
+
+.repeaterer .item h3{
+    font-size: 24px;
+    font-family: "Baloo Tamma 2", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    padding: 0 30px;
+    padding-top: 30px;
+}
+
+.repeaterer .item p{
+    font-size: 18px;
+    padding: 20px 0px 0px;
+    font-weight: lighter;
+    padding: 0 30px;
+    padding-top: 20px;
+}
+
+.reg_page{
+    width: 100%;
+    height: 810px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reg_page .register{
+    width: 1140px;
+    height: 680px;
+    display: flex;
+}
+
+.register .reg_about{
+    width: 570px;
+    height: 680px;
+}
+
+.reg_about h3{
+    font-size: 36px;
+    font-family: "Baloo Tamma 2", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    padding: 150px 0px 0px 0px;
+}
+
+.reg_about p{
+    font-size: 18px;
+    padding: 21px 178px 0px 0px;
+    line-height: 2;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.reg_about .images_from{
+    font-style: italic;
+}
+
+.reg_about .images_from a{
+    color: gray;
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}
+
+.reg_about .images_from a:hover{
+    border: none;
+}
+
+.reg_about .contact{
+    width: 412px;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    background-color: #FFECE5;
+    border-radius: 50px;
+    padding: 30px;
+}
+
+.contact a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Cantarell", sans-serif;
+    font-weight: bold;
+}
+
+.contact a:hover{
+    color: #F2480A;
+}
+
+.contact a i{
+    color: #F2480A;
+}
+
+.register .reg{
+    width: 570px;
+    height: 680px;
+}
+
+.reg h2{
+    font-size: 55px;
+    font-family: "Baloo Tamma 2", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+}
+
+.reg form{
+    width: 560px;
+    height: 474.8px;
+    background-color: #F2F2F2;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 50px;
+}
+
+.reg form div{
+    display: flex;
+    flex-direction: column;
+}
+
+.reg form input{
+    padding: 10px 12px;
+    border-radius: 20px;
+    border: none;
+}
+
+.reg form textarea{
+    border: none;
+    padding: 10px 12px;
+    border-radius: 20px;
+}
+
+.reg form button{
+    padding: 20px 0px;
+    border-radius: 30px;
+    border: none;
+    background-color: #F2480A;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
